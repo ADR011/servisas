@@ -24,5 +24,7 @@ urlpatterns = [
     path('registracija/', include('registracija.urls')),
     path('perziura/', include('perziura.urls')),
     path('pradinis/', include('pradinis.urls')),
+    path('klientai/', include('klientai.urls')),
+    
 
 ]
